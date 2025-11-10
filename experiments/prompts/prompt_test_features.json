@@ -1,0 +1,227 @@
+[
+    {
+        "model_id": "gpt2-small",
+        "layer": "0-res-jb",
+        "index": 5,
+        "type": "symbol",
+        "expected_semantic_regex": ["[:symbol worked:]"],
+        "name": "word-level symbol match",
+        "url": "https://www.neuronpedia.org/gpt2-small/0-res-jb/5"
+    },
+    {
+        "model_id": "gpt2-small",
+        "layer": "0-res-jb",
+        "index": 102,
+        "type": "symbol",
+        "expected_semantic_regex": ["[:symbol AW:]"],
+        "name": "acronym symbol match",
+        "url": "https://www.neuronpedia.org/gpt2-small/0-res-jb/102"
+    },
+    {
+        "model_id": "gpt2-small",
+        "layer": "0-res-jb",
+        "index": 69,
+        "type": "symbol",
+        "expected_semantic_regex": ["[:symbol Hernandez:]", "@{:context news:}([:symbol Hernandez:])", "@{:context news stories:}([:symbol Hernandez:])"],
+        "name": "proper word symbol match",
+        "url": "https://www.neuronpedia.org/gpt2-small/0-res-jb/69"
+    },
+    {
+        "model_id": "gpt2-small",
+        "layer": "0-res-jb",
+        "index": 8,
+        "type": "symbol",
+        "expected_semantic_regex": ["[:symbol aping:]"],
+        "name": "subword symbol match",
+        "url": "https://www.neuronpedia.org/gpt2-small/0-res-jb/8"
+    },
+    {
+        "model_id": "gpt2-small",
+        "layer": "9-res-jb",
+        "index": 25,
+        "type": "symbol",
+        "expected_semantic_regex": ["[:symbol wikipedia.org/wiki/:]", "[:symbol wikipedia.org/wiki:]"],
+        "name": "multitoken symbol match",
+        "url": "https://www.neuronpedia.org/gpt2-small/9-res-jb/25"
+    },
+    {
+        "model_id": "gpt2-small",
+        "layer": "3-res-jb",
+        "index": 19,
+        "type": "lexeme",
+        "expected_semantic_regex": ["[:lexeme emphasize:]", "[:lexeme emphasise:]", "[:lexeme emphasize:]|[:lexeme emphasise:]", "[:lexeme emphasise:]|[:lexeme emphasize:]"],
+        "name": "respelling lexeme match",
+        "url": "https://www.neuronpedia.org/gpt2-small/3-res-jb/19"
+    },
+    {
+        "model_id": "gpt2-small",
+        "layer": "6-res-jb",
+        "index": 0,
+        "type": "lexeme",
+        "expected_semantic_regex": ["[:lexeme notice:]"],
+        "name": "basic lexeme match",
+        "url": "https://www.neuronpedia.org/gpt2-small/6-res-jb/0"
+    },
+    {
+        "model_id": "gpt2-small",
+        "layer": "12-res-jb",
+        "index": 10498,
+        "type": "lexeme",
+        "expected_semantic_regex": ["[:lexeme hold:]"],
+        "name": "basic lexeme match",
+        "url": "https://www.neuronpedia.org/gpt2-small/12-res-jb/10498"
+    },
+    {
+        "model_id": "gpt2-small",
+        "layer": "0-res-jb",
+        "index": 34,
+        "type": "lexeme",
+        "expected_semantic_regex": ["[:lexeme eer:]"],
+        "name": "subword lexeme match",
+        "url": "https://www.neuronpedia.org/gpt2-small/0-res-jb/34"
+    },
+    {
+        "model_id": "gpt2-small",
+        "layer": "0-res-jb",
+        "index": 109,
+        "type": "lexeme",
+        "expected_semantic_regex": ["[:field animals:]", "[:symbol goat:]|[:symbol donkey:]|[:symbol camel:]", "[:lexeme goat:]|[:lexeme donkey:]|[:lexeme camel:]"],
+        "name": "plurality lexeme match",
+        "url": "https://www.neuronpedia.org/gpt2-small/0-res-jb/109"
+    },
+    {
+        "model_id": "gpt2-small",
+        "layer": "9-res-jb",
+        "index": 12,
+        "type": "field",
+        "expected_semantic_regex": ["[:field schools:]", "[:field educational institutions:]", "[:field school:]", "[:field school name:]"],
+        "name": "basic field match",
+        "url": "https://www.neuronpedia.org/gpt2-small/9-res-jb/12"
+    },
+    {
+        "model_id": "gpt2-small",
+        "layer": "2-res-jb",
+        "index": 14676,
+        "type": "field",
+        "expected_semantic_regex": ["[:field days and times:]", "[:field weekday:][:field evening:]", "[:field day of the week:][:field time of day:]"],
+        "name": "multi-field match",
+        "url": "https://www.neuronpedia.org/gpt2-small/2-res-jb/14676"
+    },
+    {
+        "model_id": "gpt2-small",
+        "layer": "12-res-jb",
+        "index": 15888,
+        "type": "field",
+        "expected_semantic_regex": ["[:field ingredients:]", "[:field ingredient:]", "[:field cooking ingredients:]", "[:field cooking ingredient:]", "[:field culinary ingredients:]", "[:field culinary ingredient:]", "[:field culinary ingredients:]", "@{:context cooking:}([:field ingredients:])", "@{:context cooking:}([:field ingredient:])"],
+        "name": "multi-word field match",
+        "url": "https://www.neuronpedia.org/gpt2-small/12-res-jb/15888"
+    },
+    {
+        "model_id": "gpt2-small",
+        "layer": "12-res-jb",
+        "index": 23463,
+        "type": "field",
+        "expected_semantic_regex": ["[:field sports:]", "[:field sport:]"],
+        "name": "basic field match",
+        "url": "https://www.neuronpedia.org/gpt2-small/12-res-jb/23463"
+    },
+    {
+        "model_id": "gpt2-small",
+        "layer": "4-res-jb",
+        "index": 15,
+        "type": "field",
+        "expected_semantic_regex": ["[:field acts of violence:]", "[:field violent acts:]", "[:field violence:]"],
+        "name": "abstract field match",
+        "url": "https://www.neuronpedia.org/gpt2-small/4-res-jb/15"
+    },
+    {
+        "model_id": "gpt2-small",
+        "layer": "10-res-jb",
+        "index": 23,
+        "type": "field",
+        "expected_semantic_regex": ["[:field groups:]", "[:field group:]", "[:field groups of people:]", "[:field individuals:]", "[:field stakeholders:]"],
+        "name": "broad field match",
+        "url": "https://www.neuronpedia.org/gpt2-small/10-res-jb/23"
+    },
+    {
+        "model_id": "gpt2-small",
+        "layer": "12-res-jb",
+        "index": 18953,
+        "type": "field",
+        "expected_semantic_regex": ["[:field Tibet leaders:]", "[:field Tibetan leaders:]", "[:field Buddhist leaders:]", "[:field Tibetan spiritual leaders:]", "[:field: Tibetan leadership:]"],
+        "name": "field match",
+        "url": "https://www.neuronpedia.org/gpt2-small/12-res-jb/18953"
+    },
+    {
+        "model_id": "gpt2-small",
+        "layer": "11-res-jb",
+        "index": 15,
+        "type": "field",
+        "expected_semantic_regex": ["[:field popularity:]"],
+        "name": "field match",
+        "url": "https://www.neuronpedia.org/gpt2-small/11-res-jb/15"
+    },
+    {
+        "model_id": "gpt2-small",
+        "layer": "10-res-jb",
+        "index": 14,
+        "type": "field",
+        "expected_semantic_regex": ["[:field elections:]", "[:field election:]", "[:field election results:]"],
+        "name": "field match",
+        "url": "https://www.neuronpedia.org/gpt2-small/10-res-jb/14"
+    },
+    {
+        "model_id": "gpt2-small",
+        "layer": "3-res-jb",
+        "index": 22,
+        "type": "context",
+        "expected_semantic_regex": ["@{:context coding:}([:symbol var:])", "@{:context programming:}([:symbol var:])"],
+        "name": "code context match",
+        "url": "https://www.neuronpedia.org/gpt2-small/3-res-jb/22"
+    },
+    {
+        "model_id": "gpt2-small",
+        "layer": "11-res-jb",
+        "index": 6,
+        "type": "combination",
+        "expected_semantic_regex": ["[:lexeme owe:][:field subject:]"],
+        "name": "lexeme + field combination match",
+        "url": "https://www.neuronpedia.org/gpt2-small/11-res-jb/6"
+    },
+    {
+        "model_id": "gpt2-small",
+        "layer": "10-res-jb",
+        "index": 14706,
+        "type": "combination",
+        "expected_semantic_regex": ["@{:context journalism:}([:field covered:])", "@{:context journalism:}([:field cover:])"],
+        "name": "context + field combination match",
+        "url": "https://www.neuronpedia.org/gpt2-small/10-res-jb/14706"
+    },
+    {
+        "model_id": "gpt2-small",
+        "layer": "0-res-jb",
+        "index": 0,
+        "type": "symbol",
+        "expected_semantic_regex": ["[:symbol brigade:]", "[:symbol Brigade:]"],
+        "name": "bridage symbol match",
+        "url": "https://www.neuronpedia.org/gpt2-small/0-res-jb/0"
+    },
+    {
+        "model_id": "gpt2-small",
+        "layer": "11-res-jb",
+        "index": 17756,
+        "type": "symbol",
+        "expected_semantic_regex": ["[:symbol so as to:]"],
+        "name": "symbol phrase match",
+        "url": "https://www.neuronpedia.org/gpt2-small/11-res-jb/17756"
+    },
+    {
+        "model_id": "gpt2-small",
+        "layer": "0-res-jb",
+        "index": 4,
+        "type": "symbol",
+        "expected_semantic_regex": ["[:symbol 40:]"],
+        "name": "symbol number",
+        "url": "https://www.neuronpedia.org/gpt2-small/0-res-jb/4"
+    }
+]

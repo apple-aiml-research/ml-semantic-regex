@@ -1,0 +1,1727 @@
+{
+  "gpt2-small_1-res-jb_7218": {
+    "feature": {
+      "model_id": "gpt2-small",
+      "layer": "1-res-jb",
+      "index": 7218
+    },
+    "sr_description": "[:symbol on:]",
+    "nl_description": "Frequent use of the phrase \"on\" in various contexts indicating relationships, events, or conditions in sentences.",
+    "sr_responses": [
+      {
+        "pid": "d78954b6-018b-4d56-9cf5-13faaf73d689",
+        "positives": [
+          "My hat is on my dog",
+          "water bottle on a desk",
+          "getting on a flight"
+        ],
+        "counterfactuals": [
+          "My dog has my hat"
+        ]
+      },
+      {
+        "pid": "dc4f6151-38ff-43d4-ae34-93364c8b4fe4",
+        "positives": [
+          "The lock is active.",
+          "The door is locked.",
+          "The door lock is activated."
+        ],
+        "counterfactuals": [
+          "Locked out of the house."
+        ]
+      },
+      {
+        "pid": "04772121-0129-45de-9589-cd9f38793942",
+        "positives": [
+          "The book is on the table",
+          "My research focuses on that topic",
+          "On Sundays I go to the park"
+        ],
+        "counterfactuals": [
+          "The cat is in the house "
+        ]
+      },
+      {
+        "pid": "bf17396b-c085-4da6-8c50-42d8b9c4d46f",
+        "positives": [
+          "an apple on the table",
+          "the circles on the display",
+          "on top of the mountain"
+        ],
+        "counterfactuals": [
+          "once upon a time "
+        ]
+      },
+      {
+        "pid": "989adcdc-d06b-4a99-8d38-50a203a4fd77",
+        "positives": [
+          "turned on the lights",
+          "placed it on the bed",
+          "video on demand"
+        ],
+        "counterfactuals": [
+          "moved it onto the counter"
+        ]
+      },
+      {
+        "pid": "b3b917c1-186c-449f-8a86-9f9ad6b16a1b",
+        "positives": [
+          "living on a prayer",
+          "living on credit",
+          "on bullshit"
+        ],
+        "counterfactuals": [
+          "onyx"
+        ]
+      },
+      {
+        "pid": "37ab334f-3a94-4f85-87d8-cf503f66d0e4",
+        "positives": [
+          "on letting go",
+          "turn on the lights",
+          "I can't wait to go on stage"
+        ],
+        "counterfactuals": [
+          "turn off the lights"
+        ]
+      }
+    ],
+    "nl_responses": [
+      {
+        "pid": "7bc69e66-d38c-4a32-b029-44378f158c2c",
+        "positives": [
+          "The talk on data visualization will happen next week.",
+          "I relied on his advice to build the user interface.",
+          "I went the laver cup in San Francisco on Sep 20th."
+        ],
+        "counterfactuals": [
+          "I found the cabin to be quite comfortable."
+        ]
+      },
+      {
+        "pid": "5f129c0d-c974-45f4-82a4-4ec6a6470a96",
+        "positives": [
+          "Joey has a crush on Barbara.",
+          "I am going to a show on a cruise ship.",
+          "Mike sleeps on top of the covers when it is hot."
+        ],
+        "counterfactuals": [
+          "Mom always leaves the AC on."
+        ]
+      },
+      {
+        "pid": "5b895228-a8b2-46a1-b7be-a18103c1a132",
+        "positives": [
+          "I was on painkillers for three days",
+          "I am on the calendar for the meeting next monday",
+          "They both had an on and off relationship for several years"
+        ],
+        "counterfactuals": [
+          "I was big time into comics when I was a teenager"
+        ]
+      },
+      {
+        "pid": "b5c409f4-fc74-48fa-b292-fb530063f295",
+        "positives": [
+          "she gave a lecture on AI ethics last week",
+          "the article is based on extensive user study",
+          "he insists on finishing the project before the deadline"
+        ],
+        "counterfactuals": [
+          "he didn't finish the project before the deadline"
+        ]
+      },
+      {
+        "pid": "da2f7f17-1fb9-4024-8fae-59e3e62c8bae",
+        "positives": [
+          "A tree grows on a hill with pear blossoms on it",
+          "We put on cheerful expressions on Francis's arrival",
+          "On September 9th, Lucy will be celebrating her birthday on a boat"
+        ],
+        "counterfactuals": [
+          "There are squirrels in that tree"
+        ]
+      },
+      {
+        "pid": "435dd9ff-f60f-450c-b5e6-7111ac5c06dc",
+        "positives": [
+          "They went on a date on valentines day",
+          "On Friday, the whole office went on a boat for an on-site",
+          "On one occasion they met on a hike on Mt. Rainier"
+        ],
+        "counterfactuals": [
+          "A ban on on-line use was on"
+        ]
+      }
+    ]
+  },
+  "gpt2-small_10-res-jb_5144": {
+    "feature": {
+      "model_id": "gpt2-small",
+      "layer": "10-res-jb",
+      "index": 5144
+    },
+    "sr_description": "[:field political affiliation:] [:symbol and]|[:symbol or] [:field political identity:]",
+    "nl_description": "Frequent use of conjunctions to connect contrasting political or ideological groups, indicating a discussion around political perspectives.",
+    "sr_responses": [
+      {
+        "pid": "7bc69e66-d38c-4a32-b029-44378f158c2c",
+        "positives": [
+          "Biden is a democrat and a liberal leaning centrist.",
+          "Trump is a republican and a conservative. ",
+          "There are many people who are independent and with an identity rooted in liberalism."
+        ],
+        "counterfactuals": [
+          "People's political identities may change over time."
+        ]
+      },
+      {
+        "pid": "5f129c0d-c974-45f4-82a4-4ec6a6470a96",
+        "positives": [
+          "I disagree with both democrats and conservatives",
+          "a tv show geared towards republicans or moderates",
+          "the Green Party and working class unite"
+        ],
+        "counterfactuals": [
+          "Billy was generous and rich"
+        ]
+      },
+      {
+        "pid": "5b895228-a8b2-46a1-b7be-a18103c1a132",
+        "positives": [
+          "I am democratic and progressive",
+          "the candidate is republican and right wing",
+          "the candidate is republican and moderate"
+        ],
+        "counterfactuals": [
+          "she is a democrat who is very good at reaching across the aisle"
+        ]
+      },
+      {
+        "pid": "b5c409f4-fc74-48fa-b292-fb530063f295",
+        "positives": [
+          "I am Democrat and progressive",
+          "Jake is Republican or conservative",
+          "She is Independent and libertarian"
+        ],
+        "counterfactuals": [
+          "Jake is Democrat or progressive"
+        ]
+      },
+      {
+        "pid": "da2f7f17-1fb9-4024-8fae-59e3e62c8bae",
+        "positives": [
+          "Libertarian and Green Party",
+          "Progressive or populist",
+          "Liberal and centrist"
+        ],
+        "counterfactuals": [
+          "Progressive but liberal"
+        ]
+      },
+      {
+        "pid": "435dd9ff-f60f-450c-b5e6-7111ac5c06dc",
+        "positives": [
+          "republican and president",
+          "democrat and house leader",
+          "independent or lobbyist"
+        ],
+        "counterfactuals": [
+          "A republican president"
+        ]
+      }
+    ],
+    "nl_responses": [
+      {
+        "pid": "d78954b6-018b-4d56-9cf5-13faaf73d689",
+        "positives": [
+          "Both republicans and democrats are supportive of this policy",
+          "Progressives are against this bill, while conservatives are pushing for it",
+          "Can capitalists and communists get along?"
+        ],
+        "counterfactuals": [
+          "Feminists criticized the new bill for reinforcing patriarchy"
+        ]
+      },
+      {
+        "pid": "dc4f6151-38ff-43d4-ae34-93364c8b4fe4",
+        "positives": [
+          "genocide or war",
+          "immigration or deportation",
+          "tariffs or free markets"
+        ],
+        "counterfactuals": [
+          "they tried to make their court appointment but were intercepted by ICE"
+        ]
+      },
+      {
+        "pid": "04772121-0129-45de-9589-cd9f38793942",
+        "positives": [
+          "While I don't agree with her proposals, I respect your right to vote for her",
+          "I don't understand why you would support their platform even though it goes against your interests. ",
+          "He voted in favor of that proposition even though his wife felt strongly against it."
+        ],
+        "counterfactuals": [
+          "The Democratic and Republican candidates had an argument about where to have dinner that night. "
+        ]
+      },
+      {
+        "pid": "bf17396b-c085-4da6-8c50-42d8b9c4d46f",
+        "positives": [
+          "In both conservative and liberal or let's say progressive parties, people can still reach agreements on many things, like family and peace.",
+          "People from both republic and democracy or even people who do not care about politics are discussing the recent death of Charlie Kirk.",
+          "we should believe that humans no matter whether they are republicans or democrats or any other ideological groups, they want to live a good life."
+        ],
+        "counterfactuals": [
+          "In my salad today, I have spring mix and a lot of good protein like tofu and cheese."
+        ]
+      },
+      {
+        "pid": "989adcdc-d06b-4a99-8d38-50a203a4fd77",
+        "positives": [
+          "red or blue state",
+          "democrat or republican voters",
+          "conservative and pro-life or liberal and pro-choice"
+        ],
+        "counterfactuals": [
+          "Catholic or Protestant"
+        ]
+      }
+    ]
+  },
+  "gpt2-small_6-res-jb_11289": {
+    "feature": {
+      "model_id": "gpt2-small",
+      "layer": "6-res-jb",
+      "index": 11289
+    },
+    "sr_description": "[:lexeme develop:]",
+    "nl_description": "The verb \"develop\" and its variations frequently appear, indicating processes of growth, creation, or improvement in various contexts.",
+    "sr_responses": [
+      {
+        "pid": "7bc69e66-d38c-4a32-b029-44378f158c2c",
+        "positives": [
+          "develop a dashboard",
+          "I would like develop my plans to go to Spain.",
+          "Where can I get help to develop a new habit?"
+        ],
+        "counterfactuals": [
+          "I have no idea how ether is created."
+        ]
+      },
+      {
+        "pid": "5f129c0d-c974-45f4-82a4-4ec6a6470a96",
+        "positives": [
+          "I am developing a robot",
+          "This region is over developed",
+          "Developers will be interested in this new tool"
+        ],
+        "counterfactuals": [
+          "This hot sauce packs a whallop "
+        ]
+      },
+      {
+        "pid": "5b895228-a8b2-46a1-b7be-a18103c1a132",
+        "positives": [
+          "developer productivity, ",
+          "developed nations, ",
+          "career development"
+        ],
+        "counterfactuals": [
+          "under-developed features"
+        ]
+      },
+      {
+        "pid": "b5c409f4-fc74-48fa-b292-fb530063f295",
+        "positives": [
+          "I am developing an interview protocol for my user study",
+          "the neighborhood has developed a nice bicycle lane",
+          "Apple has developed a new product line"
+        ],
+        "counterfactuals": [
+          "There is no bicycle lane in this neighborhood"
+        ]
+      },
+      {
+        "pid": "da2f7f17-1fb9-4024-8fae-59e3e62c8bae",
+        "positives": [
+          "developing tradition",
+          "developed neighborhood",
+          "developer from California"
+        ],
+        "counterfactuals": [
+          "growing neighborhood"
+        ]
+      },
+      {
+        "pid": "435dd9ff-f60f-450c-b5e6-7111ac5c06dc",
+        "positives": [
+          "developing countries",
+          "developers like to code",
+          "develop your chess piece in the opening"
+        ],
+        "counterfactuals": [
+          "a funny cat wearing glasses"
+        ]
+      }
+    ],
+    "nl_responses": [
+      {
+        "pid": "d78954b6-018b-4d56-9cf5-13faaf73d689",
+        "positives": [
+          "Here is a 5-year development plan for our organization",
+          "It is important to develop technical skills",
+          "Invest in growing a community that shares similar values"
+        ],
+        "counterfactuals": [
+          "There is a decline in the number of applicants this year"
+        ]
+      },
+      {
+        "pid": "dc4f6151-38ff-43d4-ae34-93364c8b4fe4",
+        "positives": [
+          "Developing film is an intricate process.",
+          "The mind must be continually developed.",
+          "Business development is a boring topic."
+        ],
+        "counterfactuals": [
+          "I developed a toothache."
+        ]
+      },
+      {
+        "pid": "04772121-0129-45de-9589-cd9f38793942",
+        "positives": [
+          "The student developed impressive skills during that project.",
+          "The company developed a new product very quickly. ",
+          "Their research seeks to develop new treatments for rare diseases."
+        ],
+        "counterfactuals": [
+          "Their work improved conditions in that community. "
+        ]
+      },
+      {
+        "pid": "bf17396b-c085-4da6-8c50-42d8b9c4d46f",
+        "positives": [
+          "The development of AI especially the development of LLMs makes it much faster to build a web app.",
+          "A developed country usually has better-developed public transportation systems.",
+          "The recent developments of AI industry benefits from the long-term development and investment of technology and education."
+        ],
+        "counterfactuals": [
+          "The recent growth of AI-related stocks reveals that a lot of investment in AI related industries."
+        ]
+      },
+      {
+        "pid": "989adcdc-d06b-4a99-8d38-50a203a4fd77",
+        "positives": [
+          "studying cognitive development",
+          "software dev",
+          "still developing an opinion"
+        ],
+        "counterfactuals": [
+          "growth opportunities"
+        ]
+      }
+    ]
+  },
+  "gpt2-small_9-res-jb_14593": {
+    "feature": {
+      "model_id": "gpt2-small",
+      "layer": "9-res-jb",
+      "index": 14593
+    },
+    "sr_description": "@{:context cooking ingredients}([:field ingredient:])",
+    "nl_description": "Repeated mention of cooking ingredients and measurements, primarily focusing on oils, salts, and powders.",
+    "sr_responses": [
+      {
+        "pid": "7bb9550c-4111-4588-893b-1a6cac4052ce",
+        "positives": [
+          "The recipe calls for fresh basil and garlic.",
+          "we need eggs and chocolate for the cake",
+          "water is necessary for soup"
+        ],
+        "counterfactuals": [
+          "we have lots of peppers in the garden"
+        ]
+      },
+      {
+        "pid": "d74844fa-d14d-43f6-9bbd-4555f9406a6d",
+        "positives": [
+          "Pasta is best made with fresh poblano peppers and onions.",
+          "My mom has a wonderful recipe for sticky buns that she cooks with homemade dough and rasins.",
+          "My favorite high-protein meal involves tacos with pulled-pork, onions, anaheim peppers, and cilantro in corn tortillas."
+        ],
+        "counterfactuals": [
+          "A desktop computer typically includes a gpu, a motherboard, a cpu, a cpu cooler, ram, a hard drive, and a power supply."
+        ]
+      },
+      {
+        "pid": "a0feb0d5-3569-41ca-bd13-ee5eadd400b7",
+        "positives": [
+          "olive oil.",
+          "tuna sandwich",
+          "red bean soup"
+        ],
+        "counterfactuals": [
+          "olive branch"
+        ]
+      },
+      {
+        "pid": "cf216f5d-b2d1-4a7d-a735-9883543a0cd4",
+        "positives": [
+          "The sauce needs more garlic",
+          "I'm out of flour",
+          "Put some pepper on top."
+        ],
+        "counterfactuals": [
+          "The car needs more gas."
+        ]
+      },
+      {
+        "pid": "10d42194-fc0a-46f2-9889-b2169cb886ca",
+        "positives": [
+          "boiled some veggies for dinner",
+          "bought four cans of tomatoes to make pasta",
+          "I went to farmers market today to shop for a potluck and brought back some mushrooms"
+        ],
+        "counterfactuals": [
+          "I went to farmers market today to shop for my science class and brought back some mushrooms"
+        ]
+      },
+      {
+        "pid": "0c4d47ce-12a6-4e10-b848-6f455b22afa1",
+        "positives": [
+          "You can use flour to make a cake",
+          "Eggs go in a fritata",
+          "Peanut butter in a jelly sandwich"
+        ],
+        "counterfactuals": [
+          "I like turtles"
+        ]
+      }
+    ],
+    "nl_responses": [
+      {
+        "pid": "41612fbc-f7a5-4e35-b6a5-96f917d0cd6b",
+        "positives": [
+          "Add a pinch of salt and a dash of pepper",
+          "Drizzle one tablespoon of olive oil or canola oil",
+          "Stir in the cocoa powder slowly"
+        ],
+        "counterfactuals": [
+          "1. cut the vegetables thinly"
+        ]
+      },
+      {
+        "pid": "75a8398c-9117-4711-b381-44542ac8dccb",
+        "positives": [
+          "add 100 ml of olive oil and sprinkle liberally with salt.",
+          "stir in 1 cup of lard then fry and sprinkle with powdered sugar.",
+          "rub the dough with 2 tablespoons of oil to grease it."
+        ],
+        "counterfactuals": [
+          "- put on on the gear linkage."
+        ]
+      },
+      {
+        "pid": "8deb60aa-3a97-4789-8f03-c23629e27321",
+        "positives": [
+          "Add 2 tsp baking soda to the bowl and stir slowly",
+          "Melt 1 Tbsp of butter in a pan over medium heat",
+          "Top with a pinch of salt"
+        ],
+        "counterfactuals": [
+          "Don't forget to pick up some baby powder from the store"
+        ]
+      },
+      {
+        "pid": "043d5e23-712d-4c3c-9313-560da2fb2b02",
+        "positives": [
+          "When getting started with the recipe, first put a quarter teaspoon oil in the pan on low heat and let it warm slowly - we'll add salt later.",
+          "Measure out 1/2 cup of curry powder to add to the main pot once the mix is warmed up, and sprinkle the top with salt for taste.",
+          "Combine the measured olive oil and salt while preparing the dressing - adjust based on the desired level of salt you prefer (1 tablespoon is a good starting point)"
+        ],
+        "counterfactuals": [
+          "He went to the car mechanic to change out his oil, and enjoyed the salt of the earth humor from the mechanic"
+        ]
+      },
+      {
+        "pid": "a2e80af1-9181-473b-ba13-7a2199aca52f",
+        "positives": [
+          "Add a twist salt and some pepper pepper pepper.",
+          "Don't forget your spicy powders like garlic, ginger, and onion.",
+          "Add 57g of neutral oil, nothing too spicy like olive."
+        ],
+        "counterfactuals": [
+          "Fill the vehicle with about 3qt of oil or until the dipstick shows that your good to go."
+        ]
+      },
+      {
+        "pid": "409b9aa4-5fd9-4916-b256-cf204c53a619",
+        "positives": [
+          "First combine the dry ingredients: 1 cup of flour, a tablespoon of sugar, and a teaspoon of salt. ",
+          "Coat the bottom of the pan with about a tablespoon of oil.",
+          "Combine 450g AP flour, 20g sugar, 8g yeast, and 5g salt."
+        ],
+        "counterfactuals": [
+          "Adding 33ml of water will cause the crystals to crash out of solution."
+        ]
+      }
+    ]
+  },
+  "gpt2-small_1-res-jb_4484": {
+    "feature": {
+      "model_id": "gpt2-small",
+      "layer": "1-res-jb",
+      "index": 4484
+    },
+    "sr_description": "[:symbol Lions:]",
+    "nl_description": "A consistent reference to the \"Lions,\" indicating a focus on a specific sports team or group across various contexts.",
+    "sr_responses": [
+      {
+        "pid": "7bb9550c-4111-4588-893b-1a6cac4052ce",
+        "positives": [
+          "The Detroit Lions are a good football team",
+          "Lions are dangerous",
+          "The zoo has lions"
+        ],
+        "counterfactuals": [
+          "The lioness eats a lot"
+        ]
+      },
+      {
+        "pid": "d74844fa-d14d-43f6-9bbd-4555f9406a6d",
+        "positives": [
+          "There are three lions at the zoo.",
+          "I am a Lions fan.",
+          "I spent my younger years learning about lions."
+        ],
+        "counterfactuals": [
+          "I saw a lion."
+        ]
+      },
+      {
+        "pid": "a0feb0d5-3569-41ca-bd13-ee5eadd400b7",
+        "positives": [
+          "Visit the zoo to see the lions.",
+          "Lions roam in Africa.",
+          "Roar like lions."
+        ],
+        "counterfactuals": [
+          "Visit the zoo to see the tigers."
+        ]
+      },
+      {
+        "pid": "cf216f5d-b2d1-4a7d-a735-9883543a0cd4",
+        "positives": [
+          "I like lions",
+          "I like to see lions soon",
+          "Lions are known as cats"
+        ],
+        "counterfactuals": [
+          "I like tigers"
+        ]
+      },
+      {
+        "pid": "10d42194-fc0a-46f2-9889-b2169cb886ca",
+        "positives": [
+          "Lazy lions",
+          "Lions live in groups",
+          "Lions are the largest cats"
+        ],
+        "counterfactuals": [
+          "Lions are the smallest cats "
+        ]
+      },
+      {
+        "pid": "0c4d47ce-12a6-4e10-b848-6f455b22afa1",
+        "positives": [
+          "Lions are big cats",
+          "What do lions eat?",
+          "My dog is afraid of lions"
+        ],
+        "counterfactuals": [
+          "Cats was a good movie"
+        ]
+      }
+    ],
+    "nl_responses": [
+      {
+        "pid": "41612fbc-f7a5-4e35-b6a5-96f917d0cd6b",
+        "positives": [
+          "the Lions won their latest match",
+          "he was drafted by the Lions",
+          "It is 1-0 for the Lions"
+        ],
+        "counterfactuals": [
+          "1. the lions are asleep in their cages"
+        ]
+      },
+      {
+        "pid": "75a8398c-9117-4711-b381-44542ac8dccb",
+        "positives": [
+          "The Texas Lions won the championship this year.",
+          "Bob Jones is the newest member of the Texas Lions.",
+          "How are the Lions doing this year?"
+        ],
+        "counterfactuals": [
+          "- The lions at the san Francisco zoo are powerful!"
+        ]
+      },
+      {
+        "pid": "8deb60aa-3a97-4789-8f03-c23629e27321",
+        "positives": [
+          "when in Detroit, be sure to catch a NFL game",
+          "that professional football team used to be called the Portsmouth Spartans",
+          "there's only one team that has never played in the Super Bowl"
+        ],
+        "counterfactuals": [
+          "fans of the most winning NFL team of all time"
+        ]
+      },
+      {
+        "pid": "043d5e23-712d-4c3c-9313-560da2fb2b02",
+        "positives": [
+          "This was the third championship for the Lions",
+          "The coaching change led to feelings of uncertainty for the Lions future",
+          "Lions fans are unlike any others"
+        ],
+        "counterfactuals": [
+          "I went to the zoo and was amazed by the lions"
+        ]
+      },
+      {
+        "pid": "a2e80af1-9181-473b-ba13-7a2199aca52f",
+        "positives": [
+          "The Lions are looking good this year.",
+          "I'm betting that the Lions will take the cup.",
+          "I never really rated the Lions in that matchup."
+        ],
+        "counterfactuals": [
+          "I didn't expect to see lions out of Africa."
+        ]
+      },
+      {
+        "pid": "409b9aa4-5fd9-4916-b256-cf204c53a619",
+        "positives": [
+          "The Lions made it to the playoffs.",
+          "Did you score tickets to see the Lions game?",
+          "I hope I get a chance to see the Lions exhibit at the local sports museum."
+        ],
+        "counterfactuals": [
+          "It was really cool to see the lions playing around at the zoo!"
+        ]
+      }
+    ]
+  },
+  "gpt2-small_7-res-jb_9878": {
+    "feature": {
+      "model_id": "gpt2-small",
+      "layer": "7-res-jb",
+      "index": 9878
+    },
+    "sr_description": "[:field time:] [:symbol p.m.:]",
+    "nl_description": "A consistent reference to time, specifically indicating hours in the \"p.m.\" format.",
+    "sr_responses": [
+      {
+        "pid": "7bc69e66-d38c-4a32-b029-44378f158c2c",
+        "positives": [
+          "My next meeting is at 3 p.m.",
+          "I usually finish work at 7:05 p.m.",
+          "I would like to go to bed at 10:30 p.m."
+        ],
+        "counterfactuals": [
+          "I started work early today."
+        ]
+      },
+      {
+        "pid": "5f129c0d-c974-45f4-82a4-4ec6a6470a96",
+        "positives": [
+          "I go to bed at 8 p.m.",
+          "please arrive by 5:15 p.m. and no later",
+          "11 p.m. is way to late for all this noise"
+        ],
+        "counterfactuals": [
+          "I get up at 8 a.m."
+        ]
+      },
+      {
+        "pid": "5b895228-a8b2-46a1-b7be-a18103c1a132",
+        "positives": [
+          "5 pm",
+          "6 p.m.",
+          "this p.m."
+        ],
+        "counterfactuals": [
+          "am/pm gas station"
+        ]
+      },
+      {
+        "pid": "b5c409f4-fc74-48fa-b292-fb530063f295",
+        "positives": [
+          "dinner appointment is at 6 p.m.",
+          "the meeting starts at 4 p.m.",
+          "the flight is scheduled for 5 p.m."
+        ],
+        "counterfactuals": [
+          "dinner is at 7 p.m."
+        ]
+      },
+      {
+        "pid": "da2f7f17-1fb9-4024-8fae-59e3e62c8bae",
+        "positives": [
+          "10:30 p.m.",
+          "2:14 p.m.",
+          "8:52 p.m."
+        ],
+        "counterfactuals": [
+          "8:52 a.m."
+        ]
+      },
+      {
+        "pid": "435dd9ff-f60f-450c-b5e6-7111ac5c06dc",
+        "positives": [
+          "3 p.m.",
+          "6 p.m.",
+          "12 p.m."
+        ],
+        "counterfactuals": [
+          "3PM"
+        ]
+      }
+    ],
+    "nl_responses": [
+      {
+        "pid": "d78954b6-018b-4d56-9cf5-13faaf73d689",
+        "positives": [
+          "Let's meet at 5 p.m.",
+          "We can leave the place at 2 p.m.",
+          "1 p.m. my time would be 11 p.m. in your time zone"
+        ],
+        "counterfactuals": [
+          "Should we schedule our meeting for next week?"
+        ]
+      },
+      {
+        "pid": "dc4f6151-38ff-43d4-ae34-93364c8b4fe4",
+        "positives": [
+          "It's 4:42 p.m.",
+          "It's 18 minutes before 5 p.m.",
+          "Starting at 12 noon, start using p.m. after the time of day."
+        ],
+        "counterfactuals": [
+          "Keir Starmer is the P.M. of the UK."
+        ]
+      },
+      {
+        "pid": "04772121-0129-45de-9589-cd9f38793942",
+        "positives": [
+          "We should meet around 10PM. ",
+          "I have a dinner at 8 this evening. ",
+          "I arrived this afternoon around 3."
+        ],
+        "counterfactuals": [
+          "I went to bed around 2 last night. "
+        ]
+      },
+      {
+        "pid": "bf17396b-c085-4da6-8c50-42d8b9c4d46f",
+        "positives": [
+          "our next demo session will be 3p.m. tomorrow.",
+          "All the h1b holders were encouraged to come back to the US by 9p.m. on Sept. 21 if they are outside the US.",
+          "I want to make a reservation for 7 people at 6p.m. today."
+        ],
+        "counterfactuals": [
+          "I need to put down our meeting in the afternoon"
+        ]
+      },
+      {
+        "pid": "989adcdc-d06b-4a99-8d38-50a203a4fd77",
+        "positives": [
+          "at 2:45 p.m.",
+          "it's 4 p.m.",
+          "exactly 6:16 p.m."
+        ],
+        "counterfactuals": [
+          "at 9 a.m."
+        ]
+      }
+    ]
+  },
+  "gpt2-small_1-res-jb_19894": {
+    "feature": {
+      "model_id": "gpt2-small",
+      "layer": "1-res-jb",
+      "index": 19894
+    },
+    "sr_description": "@{:context academic citations}([:symbol DOI:] | [:field reference:])",
+    "nl_description": "Frequent use of citation formats, including publication years, journal names, and DOI references, indicating scholarly writing.",
+    "sr_responses": [
+      {
+        "pid": "41612fbc-f7a5-4e35-b6a5-96f917d0cd6b",
+        "positives": [
+          "Available at DOI: 10.1038/s41586-020-2012-7",
+          "See reference [12] for details",
+          "Listed in the bibliography on page 45"
+        ],
+        "counterfactuals": [
+          "The professor made a reference to her childhood"
+        ]
+      },
+      {
+        "pid": "75a8398c-9117-4711-b381-44542ac8dccb",
+        "positives": [
+          "as seen in DOI 10.1145/2783446.2783605 referenced in FooBar",
+          "DOI 10.221/3323.23443 contains reference to the matter",
+          "DOI 10.3442/99764.22732 explains the context referenced here"
+        ],
+        "counterfactuals": [
+          "- as seen in https arXiv.org referenced in FooBar"
+        ]
+      },
+      {
+        "pid": "8deb60aa-3a97-4789-8f03-c23629e27321",
+        "positives": [
+          "arXiv:1907.11692",
+          "Radford, Alec, et al. \"Learning transferable visual models from natural language supervision.\" International conference on machine learning. PmLR, 2021.",
+          "https://doi.org/10.48550/arXiv.2403.09611"
+        ],
+        "counterfactuals": [
+          "https://google.com"
+        ]
+      },
+      {
+        "pid": "043d5e23-712d-4c3c-9313-560da2fb2b02",
+        "positives": [
+          "The digital object identifier or DOI is a handy way to connect ideas from related papers",
+          "Citations give both a degree of credit to the past authors and context for current readers through a reference to their work.",
+          "Embedded references allow for easily tracing the lineage of an idea as it has evolved through related papers."
+        ],
+        "counterfactuals": [
+          "The two best friends understood all of each other's subtle references "
+        ]
+      },
+      {
+        "pid": "a2e80af1-9181-473b-ba13-7a2199aca52f",
+        "positives": [
+          "I don't know the best way to format a DOI when publish with MLA requirements.",
+          "Make sure that you include a DOI in your bibtex.",
+          "That paper doesn't have any DOI references in the reference section."
+        ],
+        "counterfactuals": [
+          "The reference section of that paper was pretty sparse."
+        ]
+      },
+      {
+        "pid": "409b9aa4-5fd9-4916-b256-cf204c53a619",
+        "positives": [
+          "DOI 10.1145/3411764.3445538",
+          "Angie Boggust, Venkatesh Sivaraman, Yannick Assogba, Donghao Ren, Dominik Moritz, and Fred Hohman. 2025. Compress and Compare: Interactively Evaluating Efficiency and Behavior Across ML Model Compression Experiments. IEEE Transactions on Visualization and Computer Graphics 31, 1 (Jan. 2025), 809\u2013819. DOI 10.1109/TVCG.2024.3456371",
+          "ACM ISBN 978-1-4503-XXXX-X/2018/06 DOI https://doi.org/XXXXXXX.XXXXXXX"
+        ],
+        "counterfactuals": [
+          "DOI WANTTO TEXT 867-5309"
+        ]
+      }
+    ],
+    "nl_responses": [
+      {
+        "pid": "7bb9550c-4111-4588-893b-1a6cac4052ce",
+        "positives": [
+          "According to Amreshi 2018 et al. agents are great for software processes ",
+          "Moderna vaccines were created using AI, CNN 2020",
+          "Lions have coarse tongues, Nature 15"
+        ],
+        "counterfactuals": [
+          "many studies have shown that covid spreads if you dont wear a mask"
+        ]
+      },
+      {
+        "pid": "d74844fa-d14d-43f6-9bbd-4555f9406a6d",
+        "positives": [
+          "The finding was verified by several others (Sanchez et al. 2019, Li et al. 2020).",
+          "LoRA adapters have shown efficacy in helping improve accuracy in specific use cases (Hu et al. 2021).",
+          "Scholars have found promising results for several other applications (Chen et al 2024)."
+        ],
+        "counterfactuals": [
+          "It's common sense, what other sources do I need?"
+        ]
+      },
+      {
+        "pid": "a0feb0d5-3569-41ca-bd13-ee5eadd400b7",
+        "positives": [
+          "Smith'25, Johnson'23, Williams'19 suggested people who drink water often have healthier lives. ",
+          "Recent studies by Lopez & Martinez, 2020, Journal of Health Psychology, concluded hydration is positively correlated with cognitive performance, especially among older adults.",
+          "The long-term effects of daily water consumption on heart hearth remains unclear, though preliminary findings by Jones et al, 2003 and Wilson et al, 1999 suggests a positive correlation."
+        ],
+        "counterfactuals": [
+          "The long-term effects of daily water consumption on heart hearth remains unclear, though many people on social media suggest there is a positive correlation."
+        ]
+      },
+      {
+        "pid": "cf216f5d-b2d1-4a7d-a735-9883543a0cd4",
+        "positives": [
+          "Ian (2025) found a correlation between exercise and health (journal of Psychology, 122, 90-91  doi: 102103-684121)",
+          "Ian (2025) also reported that exercise also improves sleep quality (published in Nature, dot: 23-238)",
+          "For a comprehensive review of the literature, see Ian (2020) (Annual Review of Mental Health, 94(1), 27-52)."
+        ],
+        "counterfactuals": [
+          "I had a great time today."
+        ]
+      },
+      {
+        "pid": "10d42194-fc0a-46f2-9889-b2169cb886ca",
+        "positives": [
+          "Maryam Taeb, Amanda Swearngin, Eldon Schoop, Ruijia Cheng, Yue Jiang, and Jeffrey Nichols. 2024. AXNav: Replaying Accessibility Tests from Natural Language. In Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems (CHI '24). Association for Computing Machinery, New York, NY, USA, Article 962, 1\u201316. https://doi.org/10.1145/3613904.3642777",
+          "Cite the paper in Harvard style",
+          "I use a research paper reference generator to format a citation with publication years, journal names, and DOI references"
+        ],
+        "counterfactuals": [
+          "Cite the news paper article in Harvard style"
+        ]
+      },
+      {
+        "pid": "0c4d47ce-12a6-4e10-b848-6f455b22afa1",
+        "positives": [
+          "The paper \"Attention is All You Need\" was published in 2017."
+        ],
+        "counterfactuals": [
+          "Is life like a box of chocolates?"
+        ]
+      }
+    ]
+  },
+  "gpt2-small_10-res-jb_737": {
+    "feature": {
+      "model_id": "gpt2-small",
+      "layer": "10-res-jb",
+      "index": 737
+    },
+    "sr_description": "[:field percent change:]",
+    "nl_description": "Consistent use of the term \"percent\" or its abbreviation to convey changes in numerical data, typically indicating increases or decreases in various contexts.",
+    "sr_responses": [
+      {
+        "pid": "d78954b6-018b-4d56-9cf5-13faaf73d689",
+        "positives": [
+          "I see a five percent change in the stock value",
+          "There is a 10% decline in productivity",
+          "200 percent growth in happiness"
+        ],
+        "counterfactuals": [
+          "She is twice as happy in her new home"
+        ]
+      },
+      {
+        "pid": "dc4f6151-38ff-43d4-ae34-93364c8b4fe4",
+        "positives": [
+          "Tomorrow will be 10% warmer than today.",
+          "The lamp is 20% brighter.",
+          "The stock price is up by 50%."
+        ],
+        "counterfactuals": [
+          "Tomorrow will be eight degrees warmer than today."
+        ]
+      },
+      {
+        "pid": "04772121-0129-45de-9589-cd9f38793942",
+        "positives": [
+          "The tax rate was decreased by a quarter of a point ",
+          "The number of customers decreased by ten percent ",
+          "There was a 20% cut in their salaries"
+        ],
+        "counterfactuals": [
+          "The Dow index went up a hundred points "
+        ]
+      },
+      {
+        "pid": "bf17396b-c085-4da6-8c50-42d8b9c4d46f",
+        "positives": [
+          "30% off",
+          "increase by 21%",
+          "you can see this red bar is around 20% longer than the blue one"
+        ],
+        "counterfactuals": [
+          "Class A has 5 more students than class B."
+        ]
+      },
+      {
+        "pid": "989adcdc-d06b-4a99-8d38-50a203a4fd77",
+        "positives": [
+          "beef price is up fifty percent on the year",
+          "the baby doubled in weight since birth",
+          "20% off sale"
+        ],
+        "counterfactuals": [
+          "bought it for 30 cents"
+        ]
+      },
+      {
+        "pid": "b3b917c1-186c-449f-8a86-9f9ad6b16a1b",
+        "positives": [
+          "wastes 40% less water than regular toilets",
+          "accuracy increased by 0.0005% relative, what an incredible gain!",
+          "we've held the line with 0 new regressions since 2024, that's a 0.0% increase in regressions"
+        ],
+        "counterfactuals": [
+          "removing the child vaccination requirement resulted in 24 new deaths from polio in 2025"
+        ]
+      }
+    ],
+    "nl_responses": [
+      {
+        "pid": "7bc69e66-d38c-4a32-b029-44378f158c2c",
+        "positives": [
+          "Apple stock rose by 5 percent yesterday.",
+          "My friend went to the mall to buy clothes at a 10% discount.",
+          "I would like to use 15% of my monthly pay on travel."
+        ],
+        "counterfactuals": [
+          "I might run 5 miles this weekend."
+        ]
+      },
+      {
+        "pid": "5f129c0d-c974-45f4-82a4-4ec6a6470a96",
+        "positives": [
+          "My stock portfolio went up by 5%.",
+          "The poor thermals for the new CPU cause a 25% decrease in overall performance.",
+          "The electronics store is having a sale where some items are up to 50% off."
+        ],
+        "counterfactuals": [
+          "I only ate 10 percent of the cake."
+        ]
+      },
+      {
+        "pid": "5b895228-a8b2-46a1-b7be-a18103c1a132",
+        "positives": [
+          "US GDP rose by 2% this year",
+          "when comparing growth, percent improvement is better metric than actual numeric value",
+          "If a number increases by 10% and then decreases by 10%, you will not get the same initial number."
+        ],
+        "counterfactuals": [
+          "I am 1000% yes for your party this weekend. "
+        ]
+      },
+      {
+        "pid": "b5c409f4-fc74-48fa-b292-fb530063f295",
+        "positives": [
+          "compared to last year, 10% paper are being rejected",
+          "workers' salary on average decreased 5.5 percent over the past few months",
+          "my stock increased 120% compared to last year"
+        ],
+        "counterfactuals": [
+          "10% more paper are being accepted"
+        ]
+      },
+      {
+        "pid": "da2f7f17-1fb9-4024-8fae-59e3e62c8bae",
+        "positives": [
+          "Dim the lights 20 percent",
+          "5% change in app usage this week",
+          "Crime has increased 300%"
+        ],
+        "counterfactuals": [
+          "There were 5 more customers than last week"
+        ]
+      },
+      {
+        "pid": "435dd9ff-f60f-450c-b5e6-7111ac5c06dc",
+        "positives": [
+          "Our sales of nail polish increased 200 percent in the last quarter",
+          "The feds lowered interest rates by 1 percent",
+          "There is now a 100% chance of rain, up from just 20% an hour ago"
+        ],
+        "counterfactuals": [
+          "I 100 percent believe her."
+        ]
+      }
+    ]
+  },
+  "gpt2-small_4-res-jb_4484": {
+    "feature": {
+      "model_id": "gpt2-small",
+      "layer": "4-res-jb",
+      "index": 4484
+    },
+    "sr_description": "[:lexeme expect:] [:symbol to:]",
+    "nl_description": "The phrase \"expected to\" is frequently used to indicate anticipation or prediction regarding future events or outcomes.",
+    "sr_responses": [
+      {
+        "pid": "41612fbc-f7a5-4e35-b6a5-96f917d0cd6b",
+        "positives": [
+          "expect to win",
+          "expected to be",
+          "expects to go home"
+        ],
+        "counterfactuals": [
+          "1. wants to go home"
+        ]
+      },
+      {
+        "pid": "75a8398c-9117-4711-b381-44542ac8dccb",
+        "positives": [
+          "expecting to",
+          "expected to",
+          "expects to"
+        ],
+        "counterfactuals": [
+          "- except to"
+        ]
+      },
+      {
+        "pid": "8deb60aa-3a97-4789-8f03-c23629e27321",
+        "positives": [
+          "Expecting to",
+          "Expects to",
+          "Expected to"
+        ],
+        "counterfactuals": [
+          "Thinking about"
+        ]
+      },
+      {
+        "pid": "043d5e23-712d-4c3c-9313-560da2fb2b02",
+        "positives": [
+          "I am expecting to fly on an airplane",
+          "She expected to high five her teammate",
+          "The manager expects quarterly reports to comfort shareholders"
+        ],
+        "counterfactuals": [
+          "The pregnant woman is expecting a new child"
+        ]
+      },
+      {
+        "pid": "a2e80af1-9181-473b-ba13-7a2199aca52f",
+        "positives": [
+          "I'm expecting to get this paper in on time.",
+          "I don't know what he's expecting to get out of this.",
+          "I think she expects to be home for Thanksgiving."
+        ],
+        "counterfactuals": [
+          "I don't anticipate being on time tonight."
+        ]
+      },
+      {
+        "pid": "409b9aa4-5fd9-4916-b256-cf204c53a619",
+        "positives": [
+          "He expects to finish on time",
+          "Apple is expected to release a new iPhone this year",
+          "What are you expecting to accomplish?"
+        ],
+        "counterfactuals": [
+          "She\u2019s expecting in November "
+        ]
+      }
+    ],
+    "nl_responses": [
+      {
+        "pid": "7bb9550c-4111-4588-893b-1a6cac4052ce",
+        "positives": [
+          "this results of the data from this survey are expected To improve the model",
+          "Profits are expected to rise in the next quarter",
+          "The new policy is expected to improve workplace safety"
+        ],
+        "counterfactuals": [
+          "The new policy will likely improve workplace safety."
+        ]
+      },
+      {
+        "pid": "d74844fa-d14d-43f6-9bbd-4555f9406a6d",
+        "positives": [
+          "Apple stock is expected to go up while Microsoft stock is expected to go down -- or at least that is what I'm hoping for.",
+          "University of Michigan is expected to do well this season, while Purdue is expected to underperform again.",
+          "It is expected to rain on Thursday and Friday, and it is expected to remain cloudy the other days."
+        ],
+        "counterfactuals": [
+          "It will rain on Monday, Tuesday, and Wednesday, and it will be cloudy the other days."
+        ]
+      },
+      {
+        "pid": "a0feb0d5-3569-41ca-bd13-ee5eadd400b7",
+        "positives": [
+          "Children are expected to play and learn.",
+          "Parents are expected to provide for their children.",
+          "Students are expected to learn in school."
+        ],
+        "counterfactuals": [
+          "Charlie played and learned at school today."
+        ]
+      },
+      {
+        "pid": "cf216f5d-b2d1-4a7d-a735-9883543a0cd4",
+        "positives": [
+          "I am expected home soon",
+          "It is expected to rain",
+          "I am expected to win."
+        ],
+        "counterfactuals": [
+          "I enjoy cooking."
+        ]
+      },
+      {
+        "pid": "10d42194-fc0a-46f2-9889-b2169cb886ca",
+        "positives": [
+          "it is expected to rain in a few hours",
+          "Tom is expected to graduate this spring",
+          "I expected myself to finish this task in 30 mins"
+        ],
+        "counterfactuals": [
+          "He does not know meaning of the phrase expected to"
+        ]
+      },
+      {
+        "pid": "0c4d47ce-12a6-4e10-b848-6f455b22afa1",
+        "positives": [
+          "The election is expected to occur in November",
+          "My birthday celebration is expected in December",
+          "This survey is expected to end sometime in the next 10 minutes"
+        ],
+        "counterfactuals": [
+          "We want wine"
+        ]
+      }
+    ]
+  },
+  "gpt2-small_3-res-jb_19219": {
+    "feature": {
+      "model_id": "gpt2-small",
+      "layer": "3-res-jb",
+      "index": 19219
+    },
+    "sr_description": "@{:context programming:}([:symbol . :])",
+    "nl_description": "Repeated use of the token \". \" indicating method or property access in programming code.",
+    "sr_responses": [
+      {
+        "pid": "d78954b6-018b-4d56-9cf5-13faaf73d689",
+        "positives": [
+          "I don't like coding. ",
+          "re.findall(\".*berry\", text)",
+          "text.split(\" \")"
+        ],
+        "counterfactuals": [
+          "I like going to the beach."
+        ]
+      },
+      {
+        "pid": "dc4f6151-38ff-43d4-ae34-93364c8b4fe4",
+        "positives": [
+          "A \".\" can be used in variable names.",
+          "Don't include dots in variable names.",
+          "Use three dots (an ellipsis) as a placeholder."
+        ],
+        "counterfactuals": [
+          "Use three consecutive dots to show speech that is trailing off."
+        ]
+      },
+      {
+        "pid": "04772121-0129-45de-9589-cd9f38793942",
+        "positives": [
+          "To access that property you should use class.property. ",
+          "You can denote a range by 1...n.",
+          "You can use . to access variables in a class."
+        ],
+        "counterfactuals": [
+          "This is not the class property I was talking about. "
+        ]
+      },
+      {
+        "pid": "bf17396b-c085-4da6-8c50-42d8b9c4d46f",
+        "positives": [
+          "a.dataname = \"test\"",
+          "response.state = \"200\"",
+          "response.data = {\"results\": 50}"
+        ],
+        "counterfactuals": [
+          "my email address is ab.xy@gmail.com"
+        ]
+      },
+      {
+        "pid": "989adcdc-d06b-4a99-8d38-50a203a4fd77",
+        "positives": [
+          "foo.bar()",
+          "re.match(pattern, string)",
+          ".py"
+        ],
+        "counterfactuals": [
+          "I'm happy today."
+        ]
+      },
+      {
+        "pid": "b3b917c1-186c-449f-8a86-9f9ad6b16a1b",
+        "positives": [
+          "import json.loads as loads",
+          "pandas.DataFrame",
+          "Point.x"
+        ],
+        "counterfactuals": [
+          "Point[\"__name__\"][\"x\"]"
+        ]
+      },
+      {
+        "pid": "37ab334f-3a94-4f85-87d8-cf503f66d0e4",
+        "positives": [
+          ".color()"
+        ],
+        "counterfactuals": [
+          "func()"
+        ]
+      }
+    ],
+    "nl_responses": [
+      {
+        "pid": "7bc69e66-d38c-4a32-b029-44378f158c2c",
+        "positives": [
+          "data.name.toLowerCase()",
+          "file.content.trim()",
+          "response.json()"
+        ],
+        "counterfactuals": [
+          "def getValue()"
+        ]
+      },
+      {
+        "pid": "5f129c0d-c974-45f4-82a4-4ec6a6470a96",
+        "positives": [
+          "x = field.region.points[99].x",
+          "user.address.city",
+          "message.header.size"
+        ],
+        "counterfactuals": [
+          "www.apple.com"
+        ]
+      },
+      {
+        "pid": "5b895228-a8b2-46a1-b7be-a18103c1a132",
+        "positives": [
+          "date.month.length()",
+          "df.column.fill_na()",
+          "plot.axis.x.range.set([0,100])"
+        ],
+        "counterfactuals": [
+          "../"
+        ]
+      },
+      {
+        "pid": "b5c409f4-fc74-48fa-b292-fb530063f295",
+        "positives": [
+          "from rainbowplus.scores.base import *",
+          "self.client = OpenAI(api_key=api_key.keys)",
+          "except (openai.APIConnectionError, openai.RateLimitError) as e"
+        ],
+        "counterfactuals": [
+          "from rainbowplus import scores import base "
+        ]
+      },
+      {
+        "pid": "da2f7f17-1fb9-4024-8fae-59e3e62c8bae",
+        "positives": [
+          "rd.shuffle(listofstuff)",
+          "df.iloc[0]",
+          "json.dump(df, filepath)"
+        ],
+        "counterfactuals": [
+          "string = \"Hello. This has a period in it\""
+        ]
+      },
+      {
+        "pid": "435dd9ff-f60f-450c-b5e6-7111ac5c06dc",
+        "positives": [
+          "foo.bar.link",
+          "myBook.title.length",
+          "myList?.first.book"
+        ],
+        "counterfactuals": [
+          "foo = [44.4, 44.2, 33.2]"
+        ]
+      }
+    ]
+  },
+  "gpt2-small_8-res-jb_21194": {
+    "feature": {
+      "model_id": "gpt2-small",
+      "layer": "8-res-jb",
+      "index": 21194
+    },
+    "sr_description": "[:field musician:]",
+    "nl_description": "The text features prominent music artists' names, often with a focus on their impact, popularity, or recent activities within the industry.",
+    "sr_responses": [
+      {
+        "pid": "7bb9550c-4111-4588-893b-1a6cac4052ce",
+        "positives": [
+          "the violinist broke a string",
+          "the beat was off because of the drummer ",
+          "she is a world renowned pianist"
+        ],
+        "counterfactuals": [
+          "the songwriter wrote inaccurate lyrics"
+        ]
+      },
+      {
+        "pid": "d74844fa-d14d-43f6-9bbd-4555f9406a6d",
+        "positives": [
+          "I am training to become a pianist.",
+          "We hired a local singer to play at my wedding.",
+          "Linkin Park's drummer was on my airplane."
+        ],
+        "counterfactuals": [
+          "There are many ways to learn music."
+        ]
+      },
+      {
+        "pid": "a0feb0d5-3569-41ca-bd13-ee5eadd400b7",
+        "positives": [
+          "A prolific song writer.",
+          "The DJ in that club is very good.",
+          "The first violinist is a prodigy."
+        ],
+        "counterfactuals": [
+          "A prolific poem writer."
+        ]
+      },
+      {
+        "pid": "cf216f5d-b2d1-4a7d-a735-9883543a0cd4",
+        "positives": [
+          "The guitarist played a solo.",
+          "The composer wrote a song.",
+          "The drummer performed well."
+        ],
+        "counterfactuals": [
+          "The chef prepared a meal."
+        ]
+      },
+      {
+        "pid": "10d42194-fc0a-46f2-9889-b2169cb886ca",
+        "positives": [
+          "famous guitarist",
+          "Beatles is a great band",
+          "Taylor Swift never went to music schools"
+        ],
+        "counterfactuals": [
+          "Joe Biden never went to music schools"
+        ]
+      },
+      {
+        "pid": "0c4d47ce-12a6-4e10-b848-6f455b22afa1",
+        "positives": [
+          "Kendrick Lamar released a new album",
+          "I love Radiohead",
+          "Miles Davis is an amazing jazz musician"
+        ],
+        "counterfactuals": [
+          "Why is the rum gone?"
+        ]
+      }
+    ],
+    "nl_responses": [
+      {
+        "pid": "41612fbc-f7a5-4e35-b6a5-96f917d0cd6b",
+        "positives": [
+          "Bad Bunny's tour worldwide tour sold out completely",
+          "Bon Jovi to be induced into the rock and roll hall of fame",
+          "Kateye's continuing popularity in TikTok's youths dance moves"
+        ],
+        "counterfactuals": [
+          "1. Lorde's secret instagram about onion rings"
+        ]
+      },
+      {
+        "pid": "75a8398c-9117-4711-b381-44542ac8dccb",
+        "positives": [
+          "Van Halen set the standard for guitar rock.",
+          "Billy Idol's music ran the gamut from punk, to pop, to techno.",
+          "Ringo Starr is often overlooked but experienced drummers have said how much he contributed to the Beatles sound."
+        ],
+        "counterfactuals": [
+          "- Bansky is one of the most popular artists of modern times."
+        ]
+      },
+      {
+        "pid": "8deb60aa-3a97-4789-8f03-c23629e27321",
+        "positives": [
+          "Excited to hear Taylor Swift's next album, Life of a Showgirl",
+          "Hozier headlined Outside Lands this year",
+          "HUNTR/X's song Golden is why their movie Kpop Demon Hunters is the top streamed Netflix movie of all time"
+        ],
+        "counterfactuals": [
+          "Harrison Ford and Jason Segel are so great together in Shrinking"
+        ]
+      },
+      {
+        "pid": "043d5e23-712d-4c3c-9313-560da2fb2b02",
+        "positives": [
+          "Christina Aguilera has seen comeback in popularity in recent years",
+          "Kendrick Lamar played a soldout arena show in his hometown of LA capping off an incredible year (including playing the super bowl)",
+          "Charlie XCX released an album called brat which kicked off a viral 'brat girl summer' in 2024, which was broadly influential to other pop artists"
+        ],
+        "counterfactuals": [
+          "Billy and Joel met up with their friends Elton and John to jam together on some songs they were writing"
+        ]
+      },
+      {
+        "pid": "a2e80af1-9181-473b-ba13-7a2199aca52f",
+        "positives": [
+          "Taylor Swift started an international incident when she only played in Singapore.",
+          "Beyonce's performance in Atlanta was a huge deal.",
+          "I can't believe you missed the Rihanna halftime show."
+        ],
+        "counterfactuals": [
+          "Jackson Hole is hugely popular this time of year."
+        ]
+      },
+      {
+        "pid": "409b9aa4-5fd9-4916-b256-cf204c53a619",
+        "positives": [
+          "Beyonc\u00e9\u2019s Cowboy Carter is one of the defining country albums of our generation.",
+          "Lennon and McCartney\u2019s Sgt. Pepper is still credited with many modern recording innovations.",
+          "KCRW keeps playing the one song from Roe Kapara\u2019s latest album"
+        ],
+        "counterfactuals": [
+          "Pablo Picasso is well renowned for his cubist style."
+        ]
+      }
+    ]
+  },
+  "gpt2-small_8-res-jb_21078": {
+    "feature": {
+      "model_id": "gpt2-small",
+      "layer": "8-res-jb",
+      "index": 21078
+    },
+    "sr_description": "[:field day of the week:]",
+    "nl_description": "Frequent mentions of days of the week, indicating specific events or activities associated with those days.",
+    "sr_responses": [
+      {
+        "pid": "41612fbc-f7a5-4e35-b6a5-96f917d0cd6b",
+        "positives": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "counterfactuals": [
+          "1. Orange"
+        ]
+      },
+      {
+        "pid": "75a8398c-9117-4711-b381-44542ac8dccb",
+        "positives": [
+          "next tuesday",
+          "the day before yesterday",
+          "on the first Monday of the month"
+        ],
+        "counterfactuals": [
+          "- in a minute"
+        ]
+      },
+      {
+        "pid": "8deb60aa-3a97-4789-8f03-c23629e27321",
+        "positives": [
+          "Monday",
+          "Tuesday",
+          "Wednesday"
+        ],
+        "counterfactuals": [
+          "January"
+        ]
+      },
+      {
+        "pid": "043d5e23-712d-4c3c-9313-560da2fb2b02",
+        "positives": [
+          "Today is my favorite day, which is Monday",
+          "Street sweeping happens every other Tuesday, so remember to move your parked car",
+          "Saturday and Sunday are part of the weekend"
+        ],
+        "counterfactuals": [
+          "Today is my birthday, the first day of September"
+        ]
+      },
+      {
+        "pid": "a2e80af1-9181-473b-ba13-7a2199aca52f",
+        "positives": [
+          "Friday is everyone's favorite.",
+          "Garfield hates Mondays.",
+          "I don't think I'm busy on Wednesday."
+        ],
+        "counterfactuals": [
+          "Are you free this upcoming weekend?"
+        ]
+      },
+      {
+        "pid": "409b9aa4-5fd9-4916-b256-cf204c53a619",
+        "positives": [
+          "Monday",
+          "Tuesday",
+          "Wednesday"
+        ],
+        "counterfactuals": [
+          "Perhaps one day"
+        ]
+      }
+    ],
+    "nl_responses": [
+      {
+        "pid": "7bb9550c-4111-4588-893b-1a6cac4052ce",
+        "positives": [
+          "We have our weekly team meeting every Monday morning.",
+          "the commanders play on sunday afternoons ",
+          "team lunches happen at 12pm on wednesday"
+        ],
+        "counterfactuals": [
+          "he meeting was postponed until next month."
+        ]
+      },
+      {
+        "pid": "d74844fa-d14d-43f6-9bbd-4555f9406a6d",
+        "positives": [
+          "I am playing soccer on Monday, then lifting in the gym on Tuesday, and meeting up with family on Sunday.",
+          "Classes are held on Monday, Wednesday, and Friday.",
+          "Thanksgiving will be on a Wednesday this year with Black Friday happening on Friday."
+        ],
+        "counterfactuals": [
+          "A week is made up on seven days including Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, and Sunday."
+        ]
+      },
+      {
+        "pid": "a0feb0d5-3569-41ca-bd13-ee5eadd400b7",
+        "positives": [
+          "Sam goes to school every weekdays.",
+          "Alex teaches every Monday, Wednesday, and Friday.",
+          "Charlie doesn't like having to go grocery shopping every day of the week."
+        ],
+        "counterfactuals": [
+          "Alex goes to rock climbing once a month."
+        ]
+      },
+      {
+        "pid": "cf216f5d-b2d1-4a7d-a735-9883543a0cd4",
+        "positives": [
+          "I work Monday through Thursday",
+          "Saturday is my off day",
+          "We have a meeting every other Tuesday."
+        ],
+        "counterfactuals": [
+          "I enjoy cooking in my free time."
+        ]
+      },
+      {
+        "pid": "10d42194-fc0a-46f2-9889-b2169cb886ca",
+        "positives": [
+          "Taco Tuesday",
+          "I usually go to the gym on Wednesdays during summer weeks",
+          "The Capitol Hill farmers market happens every Sunday"
+        ],
+        "counterfactuals": [
+          " I usually go to the gym on on a sunny day during summer weeks"
+        ]
+      },
+      {
+        "pid": "0c4d47ce-12a6-4e10-b848-6f455b22afa1",
+        "positives": [
+          "I go the gym every week on Mondays, Wednesdays, and Fridays",
+          "We work from home on Monday and Friday every week",
+          "Fred lives in Atlanta on Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, and Sunday each week"
+        ],
+        "counterfactuals": [
+          "Butter goes well with jam"
+        ]
+      }
+    ]
+  }
+}

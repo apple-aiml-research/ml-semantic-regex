@@ -1,0 +1,138 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Feature Description",
+
+  "type": "object",
+  "properties": {
+    "feature": {
+      "type": "object",
+      "properties": {
+        "model_id": { "type": "string" },
+        "layer": { "type": "string" },
+        "index": { "type": "integer" }
+      },
+      "required": ["model_id", "layer", "index"],
+      "additionalProperties": false
+    },
+    "description": {
+      "type": "object",
+      "properties": {
+        "description": { "type": "string" },
+        "description_id": { "type": "string" },
+        "method": { "type": "string" },
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "model_name": { "type": "string" },
+            "n_data_examples": { "type": "integer" },
+            "n_tokens_per_sample": { "type": "integer" },
+            "show_activations": { "type": "boolean" },
+            "show_null_activations": { "type": "boolean" },
+            "merge_activations": { "type": "boolean" },
+            "show_breaks": { "type": "boolean" },
+            "temperature": { "type": "number" },
+            "activation_threshold": { "type": "number" }
+          },
+          "required": ["model_name", "n_data_examples", "n_tokens_per_sample", "show_breaks"],
+          "additionalProperties": true
+        },
+        "data": { "$ref": "#/definitions/data" }
+      },
+      "required": ["description", "method", "parameters", "data"],
+      "additionalProperties": false
+    },
+    "evaluation": { "$ref": "#/definitions/metrics" }
+  },
+  "required": ["feature", "description", "evaluation"],
+  "additionalProperties": false,
+
+  "definitions": {
+    "data_instance": {
+      "type": "object",
+      "properties": {
+        "tokens": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "activations": {
+          "type": "array",
+          "items": { "type": "number" }
+        },
+        "text": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "match": { "type": "integer" }
+      },
+      "additionalProperties": false
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "positive": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/data_instance" }
+        },
+        "negative": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/data_instance" }
+        }
+      },
+      "additionalProperties": true
+    },
+    "metric": {
+      "type": "object",
+      "properties": {
+        "value": { "type": ["number", "null"] },
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "evaluation_model_name": { "type": "string" },
+            "data_generation_model_name": { "type": "string" },
+            "n_few_shot_examples": { "type": "integer" },
+            "n_samples": { "type": "integer" },
+            "n_tokens_per_sample": { "type": "integer" },
+            "activation_threshold": { "type": "number" },
+            "show_breaks": { "type": "boolean" },
+            "modifcation_factors": {
+              "type": "array",
+              "items": { "type": "number" }
+            },
+            "is_semantic_regex": { "type": "boolean" },
+            "seed": { "type": "integer" },
+            "max_generation_runs": { "type": "integer" },
+            "n_examples_per_call": { "type": "integer" },
+            "n_quantiles": { "type": "integer" },
+            "max_completion_tokens": { "type": "integer" },
+            "top_sampling_percentage": { "type": "number" },
+            "ignore_first_token": { "type": "boolean" },
+            "percentiles": {
+              "type": "array",
+              "items": { "type": "number" }
+            },
+            "n_steered_generation_tokens": { "type": "integer" },
+            "temperature": { "type": "number" }
+          },
+          "required": ["evaluation_model_name", "data_generation_model_name", "n_samples", "n_tokens_per_sample", "is_semantic_regex", "show_breaks", "seed"],
+          "additionalProperties": true
+        },
+        "data": { "$ref": "#/definitions/data" }
+      },
+      "required": ["value", "parameters", "data"],
+      "additionalProperties": false
+    },
+    "metrics": {
+      "type": "object",
+      "properties": {
+        "match_rate": { "$ref": "#/definitions/metric" },
+        "clarity": { "$ref": "#/definitions/metric" },
+        "responsiveness": { "$ref": "#/definitions/metric" },
+        "detection": { "$ref": "#/definitions/metric" },
+        "fuzzing": { "$ref": "#/definitions/metric" },
+        "purity": { "$ref": "#/definitions/metric" },
+        "faithfulness": { "$ref": "#/definitions/metric" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

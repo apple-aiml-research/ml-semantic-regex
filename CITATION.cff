@@ -1,0 +1,35 @@
+citation-file-format: 1.2.0
+creator:
+  - family-names: Boggust
+    given-names: Angie
+  - family-names: Ren
+    given-names: Donghao
+  - family-names: Assogba
+    given-names: Yannick
+  - family-names: Moritz
+    given-names: Dominik
+  - family-names: Satyanarayan
+    given-names: Arvind
+  - family-names: Hohman
+    given-names: Fred
+title: Semantic Regexes
+version: 1.0.0
+url: https://github.com/apple/ml-semantic-regex
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Boggust
+      given-names: Angie
+    - family-names: Ren
+      given-names: Donghao
+    - family-names: Assogba
+      given-names: Yannick
+    - family-names: Moritz
+      given-names: Dominik
+    - family-names: Satyanarayan
+      given-names: Arvind
+    - family-names: Hohman
+      given-names: Fred
+  title: "Semantic Regexes: Auto-Interpreting LLM Features with a Structured Language"
+  year: 2025
+  journal: arXiv

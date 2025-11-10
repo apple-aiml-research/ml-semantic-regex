@@ -1,0 +1,113 @@
+name: CI Build
+
+permissions:
+  contents: read
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  release:
+    types:
+      - published
+  workflow_dispatch:
+    inputs:
+      publish_pages:
+        description: "Publish Documentation Website"
+        required: false
+        type: boolean
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+          cache-dependency-path: viewer/package-lock.json
+
+      - name: Set up uv package manager
+        uses: astral-sh/setup-uv@v5
+
+      - name: Run pytest
+        working-directory: ./semantic-regex
+        run: uv run pytest
+
+      - name: Build Python package
+        working-directory: ./semantic-regex
+        run: uv build --wheel
+
+      - name: Install viewer dependencies
+        working-directory: ./viewer
+        run: npm ci
+
+      - name: Generate viewer data
+        working-directory: ./viewer
+        run: uv run ./scripts/generate_static.py
+
+      - name: Build viewer
+        working-directory: ./viewer
+        run: npm run build
+
+      - name: Upload Python package artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: python-dist
+          path: ./semantic-regex/dist
+
+      - name: Upload viewer artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./viewer/build
+
+  publish-pypi:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'release'
+    needs:
+      - build
+    permissions:
+      id-token: write
+
+    environment:
+      name: pypi
+      url: https://pypi.org/p/semantic-regex
+
+    steps:
+      - name: Retrieve release distributions
+        uses: actions/download-artifact@v4
+        with:
+          name: python-dist
+          path: dist/
+
+      - name: Publish release distributions to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          packages-dir: dist/
+
+  publish-pages:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'release' || inputs.publish_pages == true
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    permissions:
+      id-token: write
+      pages: write
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
