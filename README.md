@@ -19,10 +19,6 @@ arXiv, 2025.\
 * [`semantic-regex`](semantic-regex): a lightweight Python package to generate semantic regexes.
 * [`viewer`](viewer): a web-based viewer to browse experimental results from the paper.
 
-## Contributing
-
-When making contributions, refer to the [`CONTRIBUTING`](CONTRIBUTING.md) guidelines and read the [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md).
-
 ## BibTeX
 
 To cite our paper, please use:
